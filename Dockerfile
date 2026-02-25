@@ -6,3 +6,4 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 CMD ["java","-jar","target/chatserver-1.0.jar"]
+#
